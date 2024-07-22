@@ -1,0 +1,16 @@
+Struttura del Codice:
+    Import delle librerie necessarie.
+    Definizione delle funzioni per calcolare la media ponderata, la media aritmetica e il voto di laurea.
+    Funzioni per generare i grafici.
+    Funzione per gestire il sistema di logging delle simulazioni.
+    Funzione principale che esegue il flusso di lavoro.
+
+Implementa il seguente ordine:
+    Import delle librerie.
+    Definizione dei corsi con i relativi CFU.
+    Funzione per calcolare la media ponderata.
+    Funzione per calcolare la media aritmetica.
+    Funzione per calcolare il voto di laurea.
+    Funzioni per generare i grafici della media ponderata e aritmetica e del voto di laurea.
+    Funzione per salvare e controllare i log delle simulazioni.
+    Funzione principale per gestire l'input dell'utente e il flusso logico del programma.
