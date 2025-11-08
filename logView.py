@@ -21,6 +21,7 @@ def display_log(log):
             print(f"Graduation Grade: {entry['graduation_grade']:.2f}")
             print("-" * 50)
 
+
 # Read and display the log
 log = read_simulation_log(log_file)
 display_log(log)

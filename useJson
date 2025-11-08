@@ -18,6 +18,7 @@ courses = {
     "Final project work": 30
 
 }
+
 log_file_json = 'simulation_log.json'
 
 def save_simulation_log_json(grades, weighted_avg, arithmetic_avg, graduation_grade):
