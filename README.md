@@ -38,7 +38,11 @@ pip install -r requirements.txt
 ### Avvio del Programma
 
 ```bash
-python grade_calculator.py
+# Dalla directory principale del progetto
+python main.py
+
+# Oppure direttamente dal modulo src
+python src/grade_calculator.py
 ```
 
 ### Modalità di Input
@@ -125,7 +129,7 @@ Il programma genera grafici professionali che includono:
 
 ### Esempio 1: Calcolo Rapido
 ```bash
-python grade_calculator.py
+python main.py
 # Seleziona: 1 (Triennale)
 # Seleziona: 1 (Computer Engineering)
 # Seleziona: 1 (Inserimento manuale)
@@ -134,16 +138,16 @@ python grade_calculator.py
 
 ### Esempio 2: Import da File
 ```bash
-python grade_calculator.py
+python main.py
 # Seleziona: 2 (Magistrale)
 # Seleziona: 1 (Embedded Systems)
 # Seleziona: 2 (Import da file)
-# Inserisci: voti.txt
+# Inserisci: examples/example_grades.txt
 ```
 
 ### Esempio 3: Crea File di Esempio
 ```bash
-python grade_calculator.py
+python main.py
 # Seleziona tipo corso
 # Seleziona corso specifico
 # Seleziona: 3 (Crea file di esempio)
@@ -154,13 +158,52 @@ python grade_calculator.py
 
 ```
 media/
-├── grade_calculator.py      # Programma principale
-├── degree_courses.py        # Database corsi di laurea
-├── trial.py                 # Versione originale (legacy)
+├── src/                     # Codice sorgente
+│   ├── grade_calculator.py  # Programma principale
+│   ├── degree_courses.py    # Database corsi di laurea
+│   └── trial.py             # Versione originale (legacy)
+├── docs/                    # Documentazione
+│   ├── COMPARISON.md        # Confronto versioni
+│   ├── DOCUMENTAZIONE_IT.md # Documentazione italiana dettagliata
+│   ├── FEATURES.md          # Lista delle funzionalità
+│   ├── PROJECT_SUMMARY.md   # Sommario del progetto
+│   ├── USER_GUIDE.md        # Guida utente dettagliata
+│   └── README_EN.md         # README in inglese
+├── examples/                # File di esempio
+│   ├── example_grades.csv   # Esempio formato CSV
+│   ├── example_grades.txt   # Esempio formato TXT
+│   └── DEMO_OUTPUT.txt      # Output demo
+├── data/                    # Dati e log
+│   ├── simulation_log.json  # Storico simulazioni (JSON)
+│   └── simulation_log.pkl   # Storico simulazioni (pickle)
+├── main.py                  # Script principale per avviare l'applicazione
 ├── requirements.txt         # Dipendenze Python
+├── LICENSE                  # Licenza MIT
 ├── README.md               # Questo file
-├── simulation_log.json     # Storico simulazioni
-└── ToDoList.txt           # Note di sviluppo
+├── BRANCH_STATUS.md        # Stato del repository e branch
+├── ToDoList.txt           # Note di sviluppo
+└── .gitignore             # File da ignorare in git
+```
+
+### Descrizione delle Directory
+
+- **`src/`**: Contiene tutto il codice sorgente dell'applicazione
+  - `grade_calculator.py`: Il calcolatore principale con interfaccia Rich
+  - `degree_courses.py`: Database dei corsi di laurea con relativi CFU
+  - `trial.py`: Versione originale legacy per riferimento
+
+- **`docs/`**: Tutta la documentazione del progetto
+  - Documentazione in italiano e inglese
+  - Guide utente e feature list
+  - Comparazioni tra versioni
+
+- **`examples/`**: File di esempio per import e test
+  - Esempi in formato TXT, CSV per l'importazione voti
+  - Output di demo per riferimento
+
+- **`data/`**: File di dati generati dall'applicazione
+  - Log delle simulazioni in formato JSON e pickle
+  - Vengono creati automaticamente dall'applicazione
 ```
 
 ## 📚 API e Moduli

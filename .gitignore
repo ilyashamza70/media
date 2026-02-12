@@ -33,15 +33,25 @@ env/
 *~
 .DS_Store
 
-# Generated files
+# Generated files - root directory
 grade_analysis_*.png
 results_*.json
 grades_*.csv
 sample_grades.*
 
+# Generated files - examples directory
+examples/grade_analysis_*.png
+examples/results_*.json
+examples/grades_*.csv
+examples/sample_grades.*
+
 # Logs
 *.log
-simulation_log.pkl
+
+# Data directory (don't ignore the directory itself, just patterns)
+data/grade_analysis_*.png
+data/results_*.json
+data/grades_*.csv
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -55,3 +65,4 @@ htmlcov/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
