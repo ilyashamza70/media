@@ -32,5 +32,44 @@
             "Modeling and optimization of embedded systems": 29.0,
             "Final project work": 31
         }
+    },
+    {
+        "timestamp": "20260212_161643",
+        "degree_course": "Computer Engineering",
+        "degree_type": "triennale",
+        "weighted_average": 28.4,
+        "arithmetic_average": 28.32,
+        "graduation_grade": 105.12,
+        "statistics": {
+            "min_grade": 26.0,
+            "max_grade": 30,
+            "median": 28.0,
+            "std_dev": 1.3397812696166165,
+            "num_30L": 2,
+            "num_30": 5,
+            "num_below_24": 0,
+            "num_exams": 19
+        },
+        "grades": {
+            "Mathematical Analysis I": 28.0,
+            "Mathematical Analysis II": 27.0,
+            "Linear Algebra": 29.0,
+            "Physics I": 26.0,
+            "Physics II": 27.0,
+            "Computer Programming": 31,
+            "Data Structures": 29.0,
+            "Computer Architecture": 28.0,
+            "Operating Systems": 30.0,
+            "Databases": 28.0,
+            "Computer Networks": 27.0,
+            "Software Engineering": 29.0,
+            "Algorithms": 31,
+            "Digital Electronics": 26.0,
+            "Signal Processing": 27.0,
+            "Web Technologies": 28.0,
+            "English Language": 30.0,
+            "Elective Course": 29.0,
+            "Final Thesis": 30.0
+        }
     }
 ]
