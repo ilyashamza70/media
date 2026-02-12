@@ -1,0 +1,36 @@
+[
+    {
+        "timestamp": "20251108_214009",
+        "degree_course": "Embedded Systems",
+        "degree_type": "magistrale",
+        "weighted_average": 29.13,
+        "arithmetic_average": 28.36,
+        "graduation_grade": 108.32,
+        "statistics": {
+            "min_grade": 26.0,
+            "max_grade": 30,
+            "median": 28.5,
+            "std_dev": 1.3942300925673667,
+            "num_30L": 3,
+            "num_30": 4,
+            "num_below_24": 0,
+            "num_exams": 14
+        },
+        "grades": {
+            "Electronics for embedded systems": 31,
+            "Computer architectures": 28.0,
+            "Operating systems for embedded systems": 29.0,
+            "Specification and simulation of digital systems": 27.0,
+            "Synthesis and optimization of digital systems": 28.0,
+            "Microelectronic systems": 26.0,
+            "Cybersecurity for Embedded Systems": 30.0,
+            "Software engineering": 29.0,
+            "Energy management for IoT": 27.0,
+            "System-on-chip architecture": 28.0,
+            "Testing and fault tolerance": 26.0,
+            "Technologies for Autonomous Vehicles": 31,
+            "Modeling and optimization of embedded systems": 29.0,
+            "Final project work": 31
+        }
+    }
+]

@@ -1,16 +1,87 @@
-Struttura del Codice:
-    Import delle librerie necessarie.
-    Definizione delle funzioni per calcolare la media ponderata, la media aritmetica e il voto di laurea.
-    Funzioni per generare i grafici.
-    Funzione per gestire il sistema di logging delle simulazioni.
-    Funzione principale che esegue il flusso di lavoro.
+✅ VERSIONE 2.0.0 - COMPLETATA
 
-Implementa il seguente ordine:
-    Import delle librerie.
-    Definizione dei corsi con i relativi CFU.
-    Funzione per calcolare la media ponderata.
-    Funzione per calcolare la media aritmetica.
-    Funzione per calcolare il voto di laurea.
-    Funzioni per generare i grafici della media ponderata e aritmetica e del voto di laurea.
-    Funzione per salvare e controllare i log delle simulazioni.
-    Funzione principale per gestire l'input dell'utente e il flusso logico del programma.
+Struttura del Codice Originale (v1.0):
+    ✅ Import delle librerie necessarie
+    ✅ Definizione dei corsi con i relativi CFU
+    ✅ Funzione per calcolare la media ponderata
+    ✅ Funzione per calcolare la media aritmetica
+    ✅ Funzione per calcolare il voto di laurea
+    ✅ Funzioni per generare i grafici
+    ✅ Funzione per gestire il sistema di logging
+    ✅ Funzione principale per l'input e il flusso logico
+
+NUOVE FUNZIONALITÀ IMPLEMENTATE (v2.0):
+
+✅ Interfaccia Utente Migliorata:
+    - UI colorata e interattiva con Rich library
+    - Menu intuitivo con selezione guidata
+    - Tabelle formattate per risultati
+    - Barre di progresso per operazioni lunghe
+
+✅ Supporto Multi-Corso:
+    - Database corsi Triennale (180 CFU)
+    - Database corsi Magistrale (120 CFU)
+    - 6 corsi di laurea preconfigurati
+    - Sistema modulare per aggiungere nuovi corsi
+
+✅ Import Multi-Formato:
+    - Supporto file TXT (formato chiave=valore)
+    - Supporto file CSV (compatibile Excel)
+    - Supporto file Excel (XLSX/XLS)
+    - Creazione automatica file di esempio
+
+✅ Calcoli Avanzati:
+    - Media ponderata con CFU
+    - Media aritmetica
+    - Voto di laurea con bonus lodi
+    - Statistiche: min, max, mediana, deviazione standard
+    - Conteggio 30L, 30, voti sotto 24
+
+✅ Visualizzazioni Migliorate:
+    - 4 grafici professionali in una vista
+    - Confronto medie con soglie
+    - Voto laurea con codifica colori
+    - Distribuzione voti con istogramma
+    - Top 10 voti per corso
+    - Salvataggio automatico immagini ad alta risoluzione
+
+✅ Persistenza e Export:
+    - Storico simulazioni in JSON
+    - Export risultati in JSON
+    - Export tabella voti in CSV
+    - Visualizzazione storico con tabelle formattate
+
+✅ Documentazione Completa:
+    - README.md aggiornato (italiano)
+    - README_EN.md (inglese)
+    - DOCUMENTAZIONE_IT.md (guida completa)
+    - USER_GUIDE.md (guida rapida)
+    - File di esempio inclusi
+
+✅ Qualità del Codice:
+    - Architettura OOP con classe GradeCalculator
+    - Separazione database corsi in modulo dedicato
+    - Gestione errori robusta
+    - Supporto encoding UTF-8
+    - Type hints e docstrings
+
+FILE INCLUSI:
+    - grade_calculator.py (programma principale)
+    - degree_courses.py (database corsi)
+    - requirements.txt (dipendenze)
+    - example_grades.txt (esempio TXT)
+    - example_grades.csv (esempio CSV)
+    - .gitignore (file da ignorare)
+    - Documentazione completa (4 file)
+
+PROSSIMI SVILUPPI POSSIBILI:
+    - [ ] Web interface con Flask/Django
+    - [ ] App mobile
+    - [ ] Database SQL per grandi quantità di dati
+    - [ ] Grafici interattivi con Plotly
+    - [ ] Esportazione PDF con grafici
+    - [ ] Confronto con statistiche nazionali
+    - [ ] Supporto altri sistemi di voto (GPA, etc)
+    - [ ] Integrazione con sistemi universitari
+    - [ ] API REST per integrazioni
+    - [ ] Machine Learning per predizioni avanzate

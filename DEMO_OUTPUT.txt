@@ -1,0 +1,138 @@
+===========================================
+🎓 DEMO OUTPUT - GRADE CALCULATOR v2.0
+===========================================
+
+EXECUTION START:
+$ python grade_calculator.py
+
+OUTPUT:
+╔══════════════════════════════════════════════════════════════╗
+║  🎓 CALCOLATORE AVANZATO VOTO DI LAUREA 🎓              ║
+║                                                              ║
+║  Calcola media ponderata, aritmetica e voto finale     ║
+║  Supporta Triennale e Magistrale                       ║
+║  Import da file TXT, CSV, Excel                         ║
+╚══════════════════════════════════════════════════════════════╝
+
+Seleziona il tipo di corso:
+1. Triennale (Bachelor's - 180 CFU)
+2. Magistrale (Master's - 120 CFU)
+
+Scelta [1/2] (1): 2
+✓ Selezionato: Magistrale
+
+Corsi di Laurea Magistrale disponibili:
+1. Embedded Systems - 120 CFU - 14 esami
+2. Computer Science - 120 CFU - 12 esami
+3. Data Science - 120 CFU - 13 esami
+
+Seleziona il numero del corso [1/2/3]: 1
+✓ Selezionato: Embedded Systems
+
+                Esami - Embedded Systems                 
+╭─────────────────────────────────────────────────┬─────╮
+│ Corso                                           │ CFU │
+├─────────────────────────────────────────────────┼─────┤
+│ Electronics for embedded systems                │  10 │
+│ Computer architectures                          │  10 │
+│ Operating systems for embedded systems          │   8 │
+│ Specification and simulation of digital systems │   6 │
+│ Synthesis and optimization of digital systems   │   6 │
+│ Microelectronic systems                         │   6 │
+│ Cybersecurity for Embedded Systems              │   6 │
+│ Software engineering                            │   8 │
+│ Energy management for IoT                       │   6 │
+│ System-on-chip architecture                     │   6 │
+│ Testing and fault tolerance                     │   6 │
+│ Technologies for Autonomous Vehicles            │   6 │
+│ Modeling and optimization of embedded systems   │   6 │
+│ Final project work                              │  30 │
+│ TOTALE                                          │ 120 │
+╰─────────────────────────────────────────────────┴─────╯
+
+Metodo di inserimento voti:
+1. Inserimento manuale
+2. Importa da file (TXT, CSV, Excel)
+3. Crea file di esempio
+4. Visualizza storico
+
+Scelta [1/2/3/4] (1): 2
+Inserisci il percorso del file: example_grades.txt
+✓ Voti importati da example_grades.txt
+
+Calcolo in corso...
+
+╭───────────────────╮
+│ RISULTATI CALCOLO │
+╰───────────────────╯
+╭────────────────────────────────┬────────────╮
+│ Media Ponderata                │   29.13/30 │
+│ Media Aritmetica               │   28.36/30 │
+│                                │            │
+│ Voto di Laurea Previsto        │ 108.32/110 │
+╰────────────────────────────────┴────────────╯
+
+Statistiche:
+                                
+  Statistica            Valore  
+ ────────────────────────────── 
+  Voto Minimo             26.0  
+  Voto Massimo              30  
+  Mediana                28.50  
+  Deviazione Standard     1.39  
+  Numero 30 e Lode           3  
+  Numero 30                  4  
+  Voti < 24                  0  
+  Totale Esami              14  
+
+Vuoi visualizzare i grafici? [y/n] (y): y
+✓ Grafici salvati in: grade_analysis_20251108_214009.png
+
+Vuoi esportare i risultati? [y/n] (y): y
+✓ Risultati esportati in: results_20251108_214009.json e grades_20251108_214009.csv
+
+✓ Operazione completata con successo!
+
+===========================================
+FILES GENERATED:
+===========================================
+- grade_analysis_20251108_214009.png (Professional charts)
+- results_20251108_214009.json (Complete results)
+- grades_20251108_214009.csv (Grade table)
+- simulation_log.json (Updated history)
+
+===========================================
+SAMPLE JSON OUTPUT:
+===========================================
+{
+  "timestamp": "20251108_214009",
+  "degree_course": "Embedded Systems",
+  "degree_type": "magistrale",
+  "weighted_average": 29.13,
+  "arithmetic_average": 28.36,
+  "graduation_grade": 108.32,
+  "statistics": {
+    "min_grade": 26.0,
+    "max_grade": 30,
+    "median": 28.5,
+    "std_dev": 1.39,
+    "num_30L": 3,
+    "num_30": 4,
+    "num_below_24": 0,
+    "num_exams": 14
+  }
+}
+
+===========================================
+INTERPRETATION:
+===========================================
+📊 Media Ponderata: 29.13/30 - ECCELLENTE!
+📈 Media Aritmetica: 28.36/30 - OTTIMA!
+🎓 Voto Laurea Previsto: 108.32/110 - POSSIBILITÀ CONCRETA DI 110!
+⭐ 3 Lodi + 4 Trenta = Performance straordinaria
+📉 Deviazione: 1.39 = Costanza eccellente
+✅ Zero voti sotto 24 = Percorso impeccabile
+
+===========================================
+END DEMO
+===========================================
