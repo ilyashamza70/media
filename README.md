@@ -5,6 +5,16 @@
 
 Un calcolatore avanzato e simulatore del voto di laurea con interfaccia interattiva, supporto per multiple corsi di laurea (Triennale e Magistrale), e capacità di importazione da file.
 
+## 📁 Struttura Repository Organizzata
+
+Il progetto è ora organizzato in modo chiaro e professionale:
+- **`src/`** - Codice sorgente Python
+- **`docs/`** - Tutta la documentazione
+- **`examples/`** - File di esempio per import
+- **`data/`** - Log e dati generati
+
+Vedi la sezione [Struttura del Progetto](#-struttura-del-progetto) per i dettagli completi.
+
 ## ✨ Caratteristiche Principali
 
 - 🎯 **Supporto Completo**: Corsi di laurea Triennale (180 CFU) e Magistrale (120 CFU)
