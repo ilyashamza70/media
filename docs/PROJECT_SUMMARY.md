@@ -6,10 +6,6 @@ Transform a basic grade calculator into a **professional-grade, feature-rich app
 
 ## ✅ Mission Accomplished
 
-### What Was Requested (Italian Original)
-> "Voglio il tuo solito aiuto anche qui, leggi la descrizione della repo, e creami la documentazione. Fai upgrade sia estetico quindi a livello visivo che di intelligenza dell'algoritmo. Aggiungi anche la possibilità di fare magari qualcosa di interattivo con la possibilità di aprire un file txt o tabella dove inserire i voti di tutte le materie. Anzi di scegliere il corso di Laurea così presceglie gli esami da delle liste interne, che fai, poi in base a se mag o triennale fa i calcoli necessari con i voti forniti nel txt di input o tabella. Fai qualcosa di strabiliante, nuovo e diverso dalle solite cose."
-
-### What Was Delivered ✨
 
 #### ✅ Documentation (Comprehensive)
 - **README.md**: Enhanced Italian documentation (200+ lines)
