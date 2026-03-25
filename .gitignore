@@ -54,7 +54,15 @@ data/results_*.json
 data/grades_*.csv
 
 # Docs are for you only, not for version control
-docs
+docs/COMPARISON.md
+docs/DOCUMENTAZIONE_IT.md
+docs/FEATURES.md
+docs/PROJECT_SUMMARY.md
+docs/USER_GUIDE.md
+docs/README_EN.md
+docs/*.md
+
+
 
 # Jupyter Notebook
 .ipynb_checkpoints
