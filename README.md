@@ -9,7 +9,7 @@ Un calcolatore avanzato e simulatore del voto di laurea con interfaccia interatt
 
 Il progetto è ora organizzato in modo chiaro e professionale:
 - **`src/`** - Codice sorgente Python
-- **`docs/`** - Tutta la documentazione
+- **`docs/`** - Tutta la documentazione [to remove when publishing]
 - **`examples/`** - File di esempio per import
 - **`data/`** - Log e dati generati
 
@@ -173,10 +173,6 @@ media/
 │   ├── degree_courses.py    # Database corsi di laurea
 │   └── trial.py             # Versione originale (legacy)
 ├── docs/                    # Documentazione
-│   ├── COMPARISON.md        # Confronto versioni
-│   ├── DOCUMENTAZIONE_IT.md # Documentazione italiana dettagliata
-│   ├── FEATURES.md          # Lista delle funzionalità
-│   ├── PROJECT_SUMMARY.md   # Sommario del progetto
 │   ├── USER_GUIDE.md        # Guida utente dettagliata
 │   └── README_EN.md         # README in inglese
 ├── examples/                # File di esempio

@@ -53,6 +53,9 @@ data/grade_analysis_*.png
 data/results_*.json
 data/grades_*.csv
 
+# Docs are for you only, not for version control
+docs
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
