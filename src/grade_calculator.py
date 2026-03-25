@@ -26,7 +26,9 @@ class GradeCalculator:
     """Advanced grade calculator with multiple features."""
     
     def __init__(self):
-        self.log_file = 'simulation_log.json'
+        # Set paths relative to project root
+        project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+        self.log_file = os.path.join(project_root, 'data', 'simulation_log.json')
         self.degree_course = None
         self.degree_type = None
         self.courses = {}
