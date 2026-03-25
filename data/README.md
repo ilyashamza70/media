@@ -14,7 +14,7 @@ Format:
     "timestamp": "20251108_214009",
     "degree_course": "Embedded Systems",
     "degree_type": "magistrale",
-    "weighted_average": 29.13,
+    "weighted_average": 27.25,
     "arithmetic_average": 28.36,
     "graduation_grade": 108.32,
     "statistics": {...},
